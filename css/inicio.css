@@ -1,0 +1,126 @@
+body{
+    font-family: 'Boogaloo', cursive;
+}
+header h1{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    color: aliceblue;
+}
+#Container_menu{
+    background-color:#2E4600;
+    position: fixed;
+    z-index: 1;
+    font-family: 'Josefin Sans', sans-serif;
+}
+header{
+    width: 100%;
+    height: 600px;
+    background-color: hsl(226, 84%, 37%);
+    background: linear-gradient(to right, hsla(49, 92%, 36%, 0.479),hsla(226, 84%, 37%, 0.527)),url(../Imagenes/fondo.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+}
+html{
+    scroll-behavior: smooth;
+}
+#logo{
+    position: relative;
+    color:#A2C523;
+    bottom: 2px;
+}
+#etiqueta_menu{
+    color: #A2C523;
+}   
+#log{
+    color: #A2C523;
+    position: relative;
+    left: 600px;
+}
+.contenedor_frase{
+    bottom: 150px;
+    position: relative;
+}
+.contenedor_frase h1{
+    position: relative;
+    width: 600px;
+    font-size: 50px;
+    left:410px;
+    top:100px;
+    color: #A2C523;
+    text-align: center;
+}
+.contenedor_frase p{
+    position: relative; 
+    font-size: 30px;
+    left: 115px;
+    top: 105px;
+    color: white;
+    text-align:center;
+}
+.contenedor_frase img{
+    position: absolute; 
+    left: 0;
+}
+.TituloLogos{
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+}
+.ContenedorLogos{
+    position: relative;
+    display: flex;
+    bottom:50px;
+    left:220px;
+    width:100vh;
+}
+.ContenedorLogos div{
+    position: relative;
+    padding-left: 20px;
+    display: flex;  
+    justify-content:center;
+    flex:1 1 auto;
+}
+.ContenedorLogos img{
+    object-fit: cover ;
+    object-position: center;
+    width:200px;
+    height:200px;
+}
+.ContenedorLogos div h2{
+    position: relative;
+    text-align: center;
+    top: 210px;
+    right:170px;
+}
+#contenedor_about{
+    position: absolute;
+    height:200px;
+    top: 1050px;
+}
+#contenedor_about h4{
+    position: relative;
+    top: 20px;
+    left: 550px;
+    color: #A2FF39;
+    z-index: 3;
+}
+#contenedor_about h5{
+    position: absolute;
+    top: 80px;
+    left: 420px;
+    width: 500px;
+    font-size:20px;
+    text-align:center;
+    color: white;
+}
+.contenedor_img{
+    position: absolute;
+}
+.contenedor_img img{
+    height: 200px;
+    width:1300px;
+    z-index: -3;
+    object-fit: cover;
+    box-shadow: 4px 4px 2px black;
+}

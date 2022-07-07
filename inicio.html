@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/inicio.css">
+    <script src="https://kit.fontawesome.com/f80607abb0.js" crossorigin="anonymous"></script>
+    <title>Ola verde (rcecicladora)</title>
+</head>
+<body>
+    <!--Dentro del header esta todo el codigo menu-->
+    <header>
+    <nav id ="Container_menu" class="container-fluid navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" id ="logo" href="#">Ola verde</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a  id ="etiqueta_menu" class="nav-link active fa-solid fa-house" aria-current="page" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a id ="etiqueta_menu" class="nav-link" href="ola_diseño.html"><b>Como ganar dinero</b></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a id ="etiqueta_menu" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mas
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#contenedor_about">Acerca de nosotros</a></li>
+                  <li><a class="dropdown-item" href="ola_diseño.html">¿Que materiales puedes reciclar?</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+                   <li class="nav-item">
+                      <a class="nav-link btn btn-outline" id ="log" href ="index.html">Iniciar_sesion</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class ="nav-link"id ="log">Salir_de_sesion</a>
+                  </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <h1>Recicla con nosotros</h1>
+    </header> 
+    <!--Dentro del contenedor_frase esta el bloque de inicio-->
+    <div class = "contenedor_frase" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C-31.88,210.70 523.98,51.81 500.00,49.98 L500.00,150.00 L-13.26,191.95 Z" style="stroke: none; fill: #A2C523;"></path></svg>
+    </div>
+    <h1 class = "TituloLogos">somos partidiarios de :</h1>
+    <div class="ContenedorLogos">
+      <div class="logos">
+        <img src="imagenes/share-icon.png">
+        <h2>reducir</h2>
+      </div>
+      <div class="logos">
+        <img src="imagenes/998510.png">
+        <h2>reutilizar</h2>
+      </div>
+      <div class="logos">
+        <img src="imagenes/48627cadfa4512893e51a713ad31fc23-flecha-de-reciclaje-01-svg.png">
+        <h2>reciclar</h2>
+      </div>
+    </div>
+    <!--Dentro del container esta el bloque de material reciclable-->
+    <div class ="container-fluid d-flex" id="contenedor_about">
+        <h4><b>Acerca de nosotros</b></h4>
+        <div class ="container contenedor_img">
+          <img src ="imagenes/banner-reciclaje-2.png">
+        </div>
+        <h5> somo una empresa dedicada al aprovechamiento de material recicable el cual podemos
+          comprar y vender, para el procesamiento y reuso de estos mismo.
+        </h5>
+    </div>
+    <script src ="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
