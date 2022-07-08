@@ -71,7 +71,7 @@ html{
     width:700px;
     top: 780px;
     border-radius: 100px;
-    left:380px;
+    left:350px;
     background-image: linear-gradient(to right, hsla(118, 44%, 50%, 0.658),hwb(226 0% 7% / 0.671)),url(../Imagenes/parallax3.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
